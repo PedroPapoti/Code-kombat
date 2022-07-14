@@ -1,0 +1,368 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1221,
+      "max": [
+        1.3647350072860718,
+        1.7149169445037842,
+        1.1040199995040894
+      ],
+      "min": [
+        -1.4220800399780273,
+        -1.3120700120925903,
+        -0.15487700700759888
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 14652,
+      "componentType": 5126,
+      "count": 1221,
+      "max": [
+        0.9999773502349854,
+        0.9992952346801758,
+        0.9994217157363892
+      ],
+      "min": [
+        -0.9999815225601196,
+        -0.9996618628501892,
+        -0.9998747706413269
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1221,
+      "max": [
+        0.999994158744812,
+        0.9999985694885254,
+        0.9928191900253296,
+        1.0
+      ],
+      "min": [
+        -0.9999956488609314,
+        -0.9999967217445374,
+        -0.9988204836845398,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1221,
+      "max": [
+        0.9862599968910217,
+        0.9158499836921692
+      ],
+      "min": [
+        0.04554999992251396,
+        0.01711999997496605
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 5934,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 29304,
+      "componentType": 5126,
+      "count": 1030,
+      "max": [
+        0.9063680171966553,
+        1.476606011390686,
+        0.6872860193252563
+      ],
+      "min": [
+        -0.9063680171966553,
+        0.6953660249710083,
+        0.15182599425315857
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 41664,
+      "componentType": 5126,
+      "count": 1030,
+      "max": [
+        0.9915232062339783,
+        0.9964045286178589,
+        0.9992465376853943
+      ],
+      "min": [
+        -0.9959537386894226,
+        -0.9982455968856812,
+        -0.9991804361343384
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 19536,
+      "componentType": 5126,
+      "count": 1030,
+      "max": [
+        0.9979428648948669,
+        0.9998281002044678,
+        0.960130512714386,
+        1.0
+      ],
+      "min": [
+        -0.9987532496452332,
+        -0.9990951418876648,
+        -0.9995816946029663,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 9768,
+      "componentType": 5126,
+      "count": 1030,
+      "max": [
+        0.9998329877853394,
+        0.6593739986419678
+      ],
+      "min": [
+        0.00016700000560376793,
+        0.00016700000560376793
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 23736,
+      "componentType": 5125,
+      "count": 4620,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Rouker (https://sketchfab.com/Rouker)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/captains-hat-lp-4k-textures-f7165dc833e648b9a40ee82c4e20c939",
+      "title": "captains hat LP 4k textures"
+    },
+    "generator": "Sketchfab-13.52.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 42216,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 18008,
+      "byteOffset": 42216,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 54024,
+      "byteOffset": 60224,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36016,
+      "byteOffset": 114248,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 150264,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Material.001_baseColor.png"
+    },
+    {
+      "uri": "textures/Material.001_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Material.001_normal.png"
+    },
+    {
+      "uri": "textures/gold_baseColor.png"
+    },
+    {
+      "uri": "textures/gold_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/gold_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material.001",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "gold",
+      "normalTexture": {
+        "index": 5
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "hat (LP)2_1(pod substance).obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}

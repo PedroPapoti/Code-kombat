@@ -1,0 +1,11 @@
+Model Information:
+* title:	Native American Headdress
+* source:	https://sketchfab.com/3d-models/native-american-headdress-ad9b20a87d2e4e08a3df49615ce76ef7
+* author:	Darrel_Leigh (https://sketchfab.com/Darrel_Leigh)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Native American Headdress" (https://sketchfab.com/3d-models/native-american-headdress-ad9b20a87d2e4e08a3df49615ce76ef7) by Darrel_Leigh (https://sketchfab.com/Darrel_Leigh) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
