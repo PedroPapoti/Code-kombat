@@ -1,4 +1,4 @@
-import {loadGLTF} from "../../libs/loader.js";
+import {loadGLTF} from "./libs/loader.js";
 const THREE = window.MINDAR.FACE.THREE;
 
 const capture = (mindarThree) => {
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
     captains.scene.scale.set(0.40, 0.40, 0.40);
     captains.scene.renderOrder = 1;
     const captainsAnchor = mindarThree.addAnchor(10);
-    captainsAnchor.group.add(hatCaptains.scene);
+    captainsAnchor.group.add(captains.scene);
     
 
     const american = await loadGLTF('./models/american/scene.gltf');
@@ -64,29 +64,29 @@ document.addEventListener('DOMContentLoaded', () => {
     skullAnchor.group.add(skull.scene);
 
     const mask = await loadGLTF('./models/mask/scene.gltf');
-    mask.scene.position.set(0, -0.3, 0);
+    mask.scene.position.set(0, -0.2, 0);
     mask.scene.scale.set(0.6, 0.6, 0.6);
     mask.scene.renderOrder = 1;
     const maskAnchor = mindarThree.addAnchor(168); 
     maskAnchor.group.add(mask.scene);
 
     const earringLeft = await loadGLTF('./models/diamond/scene.gltf');
-    earringLeft.scene.position.set(0, -0.3, -0.3);
-    earringLeft.scene.scale.set(0.05, 0.05, 0.05);
+    earringLeft.scene.position.set(0, -0.2, -0.2);
+    earringLeft.scene.scale.set(0.8, 0.8, 0.8);
     earringLeft.scene.renderOrder = 1;
     const earringLeftAnchor = mindarThree.addAnchor(127);
     earringLeftAnchor.group.add(earringLeft.scene);
 
     const earringRight = await loadGLTF('./models/diamond/scene.gltf');
-    earringRight.scene.position.set(0, -0.3, -0.3);
-    earringRight.scene.scale.set(0.05, 0.05, 0.05);
+    earringRight.scene.position.set(0.02, -0.2, -0.1);
+    earringRight.scene.scale.set(0.8, 0.8, 0.8);
     earringRight.scene.renderOrder = 1;
     const earringRightAnchor = mindarThree.addAnchor(356);
     earringRightAnchor.group.add(earringRight.scene);
 
-    const buttons = ["#capatains", "#american", "#skull", "#mask", "#earring"];
-    const models = [[glasses.scene], [glasses2.scene], [hat1.scene], [hat2.scene], [earringLeft.scene, earringRight.scene]];
-    const visibles = [true, false, false, true, true];
+    const buttons = ["#captains", "#american", "#skull", "#mask", "#earring"];
+    const models = [[captains.scene], [american.scene], [skull.scene], [mask.scene], [earringLeft.scene, earringRight.scene]];
+    const visibles = [true, false, false, false, true];
 
     const setVisible = (button, models, visible) => {
       if (visible) {
@@ -153,3 +153,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   start();
 });
+
